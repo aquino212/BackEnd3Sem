@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi;
 using System.ComponentModel;
-
+ 
 namespace EventPlus.WebAPI;
 public class Program
 {
@@ -16,10 +16,14 @@ public class Program
 
 
         // 1.Configurar contexto do banco de dados
-        builder.Services.AddDbContext<EventContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+        builder.Services.AddDbContext<EventContext>(options => 
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
         // 2.Configurar o repositório para injeção de dependência
+        builder.Services.AddScoped<IInstituicaoRepository, InstituicaoRepository>();
         builder.Services.AddScoped<ITipoEventoRepository, TipoEventoRepository>();
+        builder.Services.AddScoped<ITipoUsuarioRepository, TipoUsuarioRepository>();
+        builder.Services.AddScoped<UsuarioRepository, UsuarioRepository>();
 
         //Add Swagger
         builder.Services.AddEndpointsApiExplorer();
@@ -38,7 +42,7 @@ public class Program
                 },
                 License = new OpenApiLicense
                 {
-                    Name = "",
+                    Name = "Youtube",
                     Url = new Uri("https://youtu.be/mKzaUbiFQ68?si=1jd7cF2PlCGo5ANY"),
                 },
 
@@ -47,7 +51,7 @@ public class Program
             //Usando autentificação no Swagger
             options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
             {
-                Name = "",
+                Name = "Authorization",
                 Type = SecuritySchemeType.Http,
                 Scheme = "Bearer",
                 BearerFormat = "JWT",
@@ -75,12 +79,12 @@ public class Program
         {
             app.MapOpenApi();
 
-            app.UseSwagger(Options => { });
+            app.UseSwagger(options => { });
 
-            app.UseSwaggerUI(Options =>
+            app.UseSwaggerUI(options =>
             {
-                Options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
-                Options.RoutePrefix = string.Empty;
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+                options.RoutePrefix = string.Empty;
             });
 
         }

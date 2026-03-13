@@ -14,6 +14,12 @@ public class InstutuicaoController : ControllerBase
     {
         _InstituicaoRepository = instituicaoRepository;
     }
+
+    /// <summary>
+    /// Endpoit da API que faz a chamada para o método de cadastar uma instituicao 
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns>Status code 201 e a instituicao a ser cadastrado</returns>
     [HttpGet("{id}")]
     public IActionResult BuscarPorId(Guid id)
     {
@@ -26,7 +32,12 @@ public class InstutuicaoController : ControllerBase
             return BadRequest(erro.Message);
         }
     }
-    [HttpGet("{id}")]
+
+    /// <summary>
+    /// Endpoint da API que faz a chamada para o metodo listar os tipos de eventos
+    /// </summary>
+    /// <returns>Status code 200 e a lista de instituicao</returns>
+    [HttpGet]
     public IActionResult Listar()
     {
         try
@@ -38,6 +49,12 @@ public class InstutuicaoController : ControllerBase
             return BadRequest(erro.Message);
         }
     }
+
+    /// <summary>
+    /// Endpoit da API que faz a chamada para o método de cadastar uma instituicao
+    /// </summary>
+    /// <param name="instituicao"></param>
+    /// <returns>Status code 201 e a instituicao a ser cadastrado</returns>
     [HttpPost("{id}")]
     public IActionResult Cadastrar(Models.Instituicao instituicao)
     {
@@ -51,6 +68,13 @@ public class InstutuicaoController : ControllerBase
             return BadRequest(erro.Message);
         }
     }
+
+    /// <summary>
+    /// Endpoit da api que faz a chamada para o método de atualizar para uma instituicao
+    /// </summary>
+    /// <param name="id">Id da instituicao a ser atualizado</param>
+    /// <param name="tipoEvento">Instituicao com os dados atualizados</param>
+    /// <returns>Status code 204 e a instituicao atualizado</returns>
     [HttpPut("{id}")]
     public IActionResult Atualizar(Guid id, Instituicao instituicao)
     {
@@ -65,6 +89,12 @@ public class InstutuicaoController : ControllerBase
         }
 
     }
+
+    /// <summary>
+    /// EndPoint da API que faz a chamada para o método de deletar uma instituicao
+    /// </summary>
+    /// <param name="id">Id da instituicao a ser excluído</param>
+    /// <returns>Status code 204</returns>
     [HttpDelete("{id}")]
     public IActionResult Deletar(Guid id)
     {
