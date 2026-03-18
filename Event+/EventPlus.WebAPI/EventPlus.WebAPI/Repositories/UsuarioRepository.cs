@@ -35,6 +35,11 @@ public class UsuarioRepository : IUsuarioRepository
         return null!;
     }
 
+    public Usuario BuscarPorEmailESenha(object value1, object value2)
+    {
+        throw new NotImplementedException();
+    }
+
     /// <summary>
     /// Buscado um usuário por seu Id, incluindo os dados do seu tipo usuário
     /// </summary>

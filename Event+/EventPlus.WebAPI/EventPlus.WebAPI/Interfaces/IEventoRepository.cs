@@ -10,4 +10,5 @@ public interface IEventoRepository
     Evento BuscarPorId(Guid id);
     List<Evento> ListarPorId(Guid IdUsuario);
     List<Evento> ListarProximo();
+    void Atualizar(Evento evento);
 }

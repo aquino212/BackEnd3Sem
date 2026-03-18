@@ -28,7 +28,6 @@ public partial class Evento
 
     [Column("IDInstituicao")]
     public Guid? Idinstituicao { get; set; }
-
     [JsonIgnore]
     [InverseProperty("IdeventoNavigation")]
     public virtual ICollection<ComentarioEvento> ComentarioEventos { get; set; } = new List<ComentarioEvento>();

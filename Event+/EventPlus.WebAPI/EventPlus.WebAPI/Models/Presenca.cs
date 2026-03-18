@@ -22,6 +22,8 @@ public partial class Presenca
     [Column("IDUsuario")]
     public Guid? Idusuario { get; set; }
 
+    public bool Situacao { get; set; }
+
     [ForeignKey("Idevento")]
     [InverseProperty("Presencas")]
     public virtual Evento? IdeventoNavigation { get; set; }

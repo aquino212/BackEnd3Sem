@@ -16,7 +16,6 @@ public partial class TipoUsuario
 
     [StringLength(100)]
     public string Titulo { get; set; } = null!;
-
     [JsonIgnore]
     [InverseProperty("IdtipoUsuarioNavigation")]
     public virtual ICollection<Usuario> Usuarios { get; set; } = new List<Usuario>();
