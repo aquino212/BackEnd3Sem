@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\ConnectPlus\\ConnectPlus.WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B64BCBDF-13BD-4871-BCBB-D227160220D6}|ConnectPlus.WebApi\\ConnectPlus.WebApi.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\connectplus\\connectplus.webapi\\connectplus.webapi\\interfaces\\icontatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64BCBDF-13BD-4871-BCBB-D227160220D6}|ConnectPlus.WebApi\\ConnectPlus.WebApi.csproj|solutionrelative:connectplus.webapi\\interfaces\\icontatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IContatoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\ConnectPlus\\ConnectPlus.WebApi\\ConnectPlus.WebApi\\Interfaces\\IContatoRepository.cs",
+              "RelativeDocumentMoniker": "ConnectPlus.WebApi\\Interfaces\\IContatoRepository.cs",
+              "ToolTip": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\ConnectPlus\\ConnectPlus.WebApi\\ConnectPlus.WebApi\\Interfaces\\IContatoRepository.cs",
+              "RelativeToolTip": "ConnectPlus.WebApi\\Interfaces\\IContatoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:27:56.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
