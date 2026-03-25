@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\controllers\\comentarioeventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\controllers\\comentarioeventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\interfaces\\icomentarioeventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\interfaces\\icomentarioeventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\dto\\comentarioeventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\dto\\comentarioeventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\interfaces\\icomentarioeventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\interfaces\\icomentarioeventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\models\\tipoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\models\\tipoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\models\\comentarioevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\models\\comentarioevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\repositories\\comentarioeventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\repositories\\comentarioeventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\controllers\\presencacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\controllers\\presencacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\repositories\\comentarioeventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\repositories\\comentarioeventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\models\\tipoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|solutionrelative:eventplus.webapi\\models\\tipoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{960C1FC4-8128-4DD7-C017-0B9CACC4A121}|EventPlus.WebAPI\\EventPlus.WebAPI.csproj|c:\\users\\54535214816\\desktop\\backend3sem\\event\u002B\\eventplus.webapi\\eventplus.webapi\\models\\instituicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,23 +66,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "PresencaController.cs",
+              "DocumentMoniker": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Controllers\\PresencaController.cs",
+              "RelativeDocumentMoniker": "EventPlus.WebAPI\\Controllers\\PresencaController.cs",
+              "ToolTip": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Controllers\\PresencaController.cs",
+              "RelativeToolTip": "EventPlus.WebAPI\\Controllers\\PresencaController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T12:34:39.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "IComentarioEventoRepository.cs",
               "DocumentMoniker": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Interfaces\\IComentarioEventoRepository.cs",
               "RelativeDocumentMoniker": "EventPlus.WebAPI\\Interfaces\\IComentarioEventoRepository.cs",
               "ToolTip": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Interfaces\\IComentarioEventoRepository.cs",
               "RelativeToolTip": "EventPlus.WebAPI\\Interfaces\\IComentarioEventoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T19:10:57.295Z"
+              "WhenOpened": "2026-03-20T19:10:57.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "EventPlus.WebAPI\\Models\\Usuario.cs",
@@ -94,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TipoUsuario.cs",
               "DocumentMoniker": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Models\\TipoUsuario.cs",
               "RelativeDocumentMoniker": "EventPlus.WebAPI\\Models\\TipoUsuario.cs",
@@ -106,15 +120,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "TipoEvento.cs",
               "DocumentMoniker": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Models\\TipoEvento.cs",
               "RelativeDocumentMoniker": "EventPlus.WebAPI\\Models\\TipoEvento.cs",
               "ToolTip": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Models\\TipoEvento.cs",
               "RelativeToolTip": "EventPlus.WebAPI\\Models\\TipoEvento.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBIAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T18:59:19.802Z"
+              "WhenOpened": "2026-03-20T18:59:19.802Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -142,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ComentarioEventoDTO.cs",
               "DocumentMoniker": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\DTO\\ComentarioEventoDTO.cs",
               "RelativeDocumentMoniker": "EventPlus.WebAPI\\DTO\\ComentarioEventoDTO.cs",
@@ -150,19 +165,7 @@
               "RelativeToolTip": "EventPlus.WebAPI\\DTO\\ComentarioEventoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T17:42:55.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ComentarioEventoController.cs",
-              "DocumentMoniker": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Controllers\\ComentarioEventoController.cs",
-              "RelativeDocumentMoniker": "EventPlus.WebAPI\\Controllers\\ComentarioEventoController.cs",
-              "ToolTip": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Controllers\\ComentarioEventoController.cs",
-              "RelativeToolTip": "EventPlus.WebAPI\\Controllers\\ComentarioEventoController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAzwC4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T17:31:41.472Z",
+              "WhenOpened": "2026-03-20T17:42:55.861Z",
               "EditorCaption": ""
             },
             {
@@ -173,13 +176,14 @@
               "RelativeDocumentMoniker": "EventPlus.WebAPI\\Models\\ComentarioEvento.cs",
               "ToolTip": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Models\\ComentarioEvento.cs",
               "RelativeToolTip": "EventPlus.WebAPI\\Models\\ComentarioEvento.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T13:40:57.393Z"
+              "WhenOpened": "2026-03-20T13:40:57.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ComentarioEventoRepository.cs",
               "DocumentMoniker": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Repositories\\ComentarioEventoRepository.cs",
               "RelativeDocumentMoniker": "EventPlus.WebAPI\\Repositories\\ComentarioEventoRepository.cs",
@@ -199,11 +203,12 @@
               "RelativeToolTip": "EventPlus.WebAPI\\Controllers\\EventoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T13:18:24.244Z"
+              "WhenOpened": "2026-03-20T13:18:24.244Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "EventPlus.WebAPI\\Program.cs",
@@ -216,15 +221,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Evento.cs",
               "DocumentMoniker": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Models\\Evento.cs",
               "RelativeDocumentMoniker": "EventPlus.WebAPI\\Models\\Evento.cs",
               "ToolTip": "C:\\Users\\54535214816\\Desktop\\BackEnd3Sem\\Event\u002B\\EventPlus.WebAPI\\EventPlus.WebAPI\\Models\\Evento.cs",
               "RelativeToolTip": "EventPlus.WebAPI\\Models\\Evento.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAIwB4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T19:31:24.837Z"
+              "WhenOpened": "2026-03-18T19:31:24.837Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
