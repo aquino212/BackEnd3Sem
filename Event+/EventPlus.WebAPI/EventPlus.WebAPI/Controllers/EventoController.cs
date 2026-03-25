@@ -118,4 +118,15 @@ public class EventoController : ControllerBase
             return BadRequest(erro.Message);
         }
     }
+    [HttpGet("{id}")]
+    public IActionResult BuscarPorId(Guid id)
+    {
+        try
+        {
+            return Ok(_EventoRepository.BuscarPorId(id));
+        }
+        catch(Exception erro)
+        { return BadRequest(erro.Message); }
+    }
+
 }

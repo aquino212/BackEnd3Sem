@@ -42,6 +42,8 @@ public partial class EventContext : DbContext
 
             entity.Property(e => e.IdcomentarioEvento).HasDefaultValueSql("(newid())");
 
+            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("IdUsuario");
+
             entity.HasOne(d => d.IdeventoNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("FK__Comentari__IDEve__70DDC3D8");
         });
 

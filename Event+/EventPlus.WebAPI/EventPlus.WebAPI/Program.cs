@@ -1,3 +1,4 @@
+using Azure.AI.ContentSafety;
 using EventPlus.WebAPI.BdContextEvent;
 using EventPlus.WebAPI.Interfaces;
 using EventPlus.WebAPI.Repositories;
@@ -23,6 +24,16 @@ public class Program
         builder.Services.AddScoped<IInstituicaoRepository, InstituicaoRepository>();
         builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
         builder.Services.AddScoped<IEventoRepository, EventoRepository>();
+        builder.Services.AddScoped<IComentarioEventoRepository, ComentarioEventoRepository>();
+        builder.Services.AddScoped<IPresencaRepository, PresencaRepository>();
+
+
+        //Configuração do Azure Content Safety
+        var endopoint = "#";
+        var apikey = "#";
+
+        var client = new ContentSafetyClient(new Uri(endopoint), new Azure.AzureKeyCredential(apikey));
+        builder.Services.AddSingleton(client); 
 
         builder.Services.AddEndpointsApiExplorer();
 
