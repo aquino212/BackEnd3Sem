@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConnectPlus.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fa9775a4af5e6f8dfb3ecbb10193b2af8b03b35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ecd572dd62465125af0c6bd5d17f62e2f7488f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConnectPlus.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConnectPlus.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

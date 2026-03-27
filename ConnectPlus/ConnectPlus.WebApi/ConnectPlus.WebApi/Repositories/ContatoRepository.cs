@@ -19,30 +19,40 @@ public class ContatoRepository : IContatoRepository
         _context = context;
     }
 
-    public List<Contato> GetAllContatos()
-    {
-        return _context.Contatos
-            .Include(c => c.IdTipoContato)
-            .ToList();
-    }
-
-    public Contato GetContatoById(int id)
-    {
-        return _context.Contatos
-            .Include(c => c.IdTipoContato)
-            .FirstOrDefault(c => c.IdContato == id);
-    }
-
-    public void AddContato(Contato contato)
+    public void Adicionar(Contato contato)
     {
         _context.Contatos.Add(contato);
         _context.SaveChanges();
     }
 
-    public void UpdateContato(Contato contato)
+    public void Deletar(Guid id)
+    {
+        var contato = _context.Contatos.Find(id);
+
+        if (contato != null)
+        {
+            _context.Contatos.Remove(contato);
+            _context.SaveChanges();
+        }
+    }
+
+    public List<Contato> Listar()
+    {
+            return _context.Contatos
+        .Include(c => c.IdTipoContatoNavigation)
+        .ToList();
+    }
+
+    public Contato BuscarPoId(Guid id)
+    {
+        return _context.Contatos
+        .Include(c => c.IdTipoContatoNavigation)
+        .FirstOrDefault(c => c.IdContato == id);
+    }
+    public void Atualizar(Guid id, Contato contato)
     {
         var contatoExistente = _context.Contatos
-            .FirstOrDefault(c => c.IdContato == contato.IdContato);
+    .FirstOrDefault(c => c.IdContato == contato.IdContato);
 
         if (contatoExistente != null)
         {
@@ -55,14 +65,4 @@ public class ContatoRepository : IContatoRepository
         }
     }
 
-    public void DeleteContato(int id)
-    {
-        var contato = _context.Contatos.Find(id);
-
-        if (contato != null)
-        {
-            _context.Contatos.Remove(contato);
-            _context.SaveChanges();
-        }
-    }
 }

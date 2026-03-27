@@ -4,11 +4,11 @@ namespace ConnectPlus.WebApi.Interfaces;
 
 public interface IContatoRepository
 {
-    Task<IEnumerable<Contato>> GetAllContatosAsync();
-        Task<Contato> GetContatoByIdAsync(int id);
-        Task AddContatoAsync(Contato contato);
-        Task UpdateContatoAsync(Contato contato);
-        Task DeleteContatoAsync(int id);
+    List<Contato> Listar();
+    Contato BuscarPoId(Guid id);
+    void Adicionar(Contato contato);
+    void Atualizar(Guid id,Contato contato);
+    void Deletar(Guid id);
 
 
 }

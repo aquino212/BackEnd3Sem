@@ -1,9 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
+using Microsoft.EntityFrameworkCore;
 
 namespace ConnectPlus.WebApi.Models;
 
@@ -11,7 +11,7 @@ namespace ConnectPlus.WebApi.Models;
 public partial class TipoContato
 {
     [Key]
-    public int IdTipoContato { get; set; }
+    public Guid IdTipoContato { get; set; }
 
     [StringLength(50)]
     public string Titulo { get; set; } = null!;
